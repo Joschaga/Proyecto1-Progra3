@@ -16,11 +16,12 @@ function Pregunta1()
 function Pregunta2()
 {
   var Palabra="";
-  for (var i = 1; i < 6; i++) {
+  for (var i = 1; i < 7; i++) {
     Palabra+=document.getElementById('Letra'+i).value;
   }
-  if (Palabra.toLowerCase()=="viaje") {
+  if (Palabra.toLowerCase()=="comida") {
     alert("La Palabra Digitada Es Correcta");
+    return window.open("Pregunta3.html");
   }
   else {
     alert("La Palabra Digitada Es Incorrecta");
@@ -28,11 +29,12 @@ function Pregunta2()
 }function Pregunta3()
 {
   var Palabra="";
-  for (var i = 1; i < 6; i++) {
+  for (var i = 1; i < 8; i++) {
     Palabra+=document.getElementById('Letra'+i).value;
   }
-  if (Palabra.toLowerCase()=="viaje") {
+  if (Palabra.toLowerCase()=="mascota") {
     alert("La Palabra Digitada Es Correcta");
+    return window.open("Pregunta4.html");
   }
   else {
     alert("La Palabra Digitada Es Incorrecta");
@@ -40,11 +42,12 @@ function Pregunta2()
 }function Pregunta4()
 {
   var Palabra="";
-  for (var i = 1; i < 6; i++) {
+  for (var i = 1; i < 9; i++) {
     Palabra+=document.getElementById('Letra'+i).value;
   }
-  if (Palabra.toLowerCase()=="viaje") {
+  if (Palabra.toLowerCase()=="deportes") {
     alert("La Palabra Digitada Es Correcta");
+    return window.open("Pregunta5.html");
   }
   else {
     alert("La Palabra Digitada Es Incorrecta");
@@ -52,11 +55,12 @@ function Pregunta2()
 }function Pregunta5()
 {
   var Palabra="";
-  for (var i = 1; i < 6; i++) {
+  for (var i = 1; i < 8; i++) {
     Palabra+=document.getElementById('Letra'+i).value;
   }
-  if (Palabra.toLowerCase()=="viaje") {
+  if (Palabra.toLowerCase()=="trabajo") {
     alert("La Palabra Digitada Es Correcta");
+    return window.open("index.html");
   }
   else {
     alert("La Palabra Digitada Es Incorrecta");
